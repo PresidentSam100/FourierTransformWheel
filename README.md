@@ -1,13 +1,20 @@
 # FourierTransformWheel
 
-This program models a two dimensional discrete Fourier transform.
+This program models a two dimensional Discrete Fourier Transform (2D DFT).
 
-Start off by drawing a shape with the mouse which provides a set of points. After that the Fourier transform occurs and the phases, frequencies, and amplitudes are used to calculate the location and rotation of the circles. 
+Start off by drawing a shape with the mouse which provides a list of points for the program. After that the discrete Fourier transform occurs and the phases, frequencies, and amplitudes are extracted and turned into circles. 
 
-Each circle is sorted by order of size and allowed to move. Each circle also has a radius that rotates about the center of the circle. The center of each successively smaller circle is linked on the radius of the previous circle. The circles then spin according to their frequency and this traces out the original set of points.
+Each circle is sorted by amplitude and is free to move. Each circle also has a radius that rotates about the center of the circle. The center of each successively smaller circle is linked on the radius of the previous circle. The circles then spin according to their frequency, and the last circle traces out the original set of points to form the unique shape.
 
-![fourierdiscrete1](https://user-images.githubusercontent.com/56271444/165194754-135affb1-724c-40e1-9266-9193f79046a2.png)
+Controls:
+Use the mouse to trace out any shape.
+Press 'G' to run the program.
+Press 'R' to draw a new shape.
 
-![fourierdiscrete2](https://user-images.githubusercontent.com/56271444/165194753-de054f39-a226-4445-bddb-91af24a079c2.png)
+Video Demos:
 
-![fourierdiscrete3](https://user-images.githubusercontent.com/56271444/165194751-aaa29fd2-d44d-4de6-8f24-cfba72fe7958.png)
+
+https://user-images.githubusercontent.com/56271444/166126986-65aecd33-d364-4f93-a9a1-a216ee1f4073.mp4
+
+https://user-images.githubusercontent.com/56271444/166126993-33195545-9448-491c-b863-5d72edd2343e.mp4
+
